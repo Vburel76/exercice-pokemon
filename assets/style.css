@@ -9,6 +9,7 @@
 
 img{
     width: 100%;
+   
 }
 
 .icontaille{
@@ -43,6 +44,17 @@ img{
 }
 .couleur-8{
     background-color: #6E00BC;
+}
+
+.taillebouton{
+    width: 2rem;
+  
+}
+
+.colonne{
+
+    margin: 0 0.5rem 0 0.5rem;
+
 }
 
 
