@@ -1,3 +1,16 @@
 .couleurheader{
     background-color:#3562AC ;
 }
+
+.taille{
+    height: auto;
+    width: 3rem;
+}
+
+img{
+    width: 100%;
+}
+
+.icontaille{
+    font-size: 2.5rem;
+}
