@@ -14,30 +14,26 @@
 </head>
 
 <body class="bg-primary m-1">
-    <header class="fixed-bottom border couleurheader ">
+    <header class="fixed-bottom sticky-lg-top border couleurheader m-0">
         <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between text-whtite border">
-
-            <div class="container-fluid">
+            <div class="container-fluid d-flex justify-content-between ">
                 <a class="navbar-brand taille" href="#"><img src="../img/pokemon-go-logo-hd-image-PNG.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon m-auto h1"></span>
                 </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
 
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
-                    <div class="navbar-nav d-flex flex-row justify-content-between ">
-                        <a class="nav-link" aria-current="page" href="#">
-                            <i class="bi bi-search icontaille"></i>
-                        </a>
-                        <a><i class="bi bi-person-circle icontaille"></i></a>
-                    </div>
-
-                    <div class="navbar-nav d-flex flex-collumn text-center">
-                        <a href="../index.html">ACCUEIL</a>
-                        <a href="pokedex.html">POKEDEX</a>
-                        <a href="#">TYPE</a>
+                    <div class="navbar-nav flex-collumn justify-content-between align-items-center">
+                            <!-- <a class="nav-link" href="#"><i class="bi bi-person-circle icontaille"></i></a> -->
+                            <a class="nav-link margin" href="../index.html">ACCUEIL</a>
+                            <a class="nav-link margin" href="pokedex.html">POKEDEX</a>
+                            <a class="nav-link margin" href="typeSearch.html">TYPE</a>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit"><i class="bi bi-search icontaille"></i></button>
+                        </form>
                     </div>
 
                 </div>
