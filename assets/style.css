@@ -7,6 +7,17 @@
     width: 3rem;
 }
 
+.taille-2{
+    height: auto;
+    width: 3.5rem;
+}
+
+.taille-3{
+    height: auto;
+    width: 100%;
+
+}
+
 img{
     width: 100%;
    
@@ -55,6 +66,20 @@ img{
 
     margin: 0 0.5rem 0 0.5rem;
 
+}
+
+.colonne-2{
+    margin: 0 0.5rem;
+}
+
+.espace{
+    margin: 0 0.1px 0 0.1px;
+   
+}
+
+.marge-1{
+   padding-top: 2rem;
+   padding-bottom: 8rem;
 }
 
 
