@@ -14,167 +14,184 @@
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 
-<body class="bg-secondary">
-    <header class="fixed-bottom border couleurheader">
-        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between text-whtite border">
+<body>
+    <div class="row">
+        <div class="container col-lg-12">
 
-            <div class="container-fluid">
-                <a class="navbar-brand taille" href="#"><img src="../img/pokemon-go-logo-hd-image-PNG.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon m-auto h1"></span>
-                </button>
+            <header class="fixed-bottom border couleurheader sticky-lg-top ">
 
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-                    <div class="navbar-nav d-flex flex-row justify-content-between ">
-                        <a class="nav-link" aria-current="page" href="#">
-                            <i class="bi bi-search icontaille"></i>
-                        </a>
-                        <a><i class="bi bi-person-circle icontaille"></i></a>
+                <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between text-whtite border ">
+
+                    <div class="container-fluid">
+                        <a class="navbar-brand taille" href="#"><img src="../img/pokemon-go-logo-hd-image-PNG.png"
+                                alt=""></a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon m-auto h1"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+
+                            <div class="navbar-nav d-flex flex-row justify-content-between ">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <i class="bi bi-search icontaille"></i>
+                                </a>
+                                <!-- <a><i class="bi bi-person-circle icontaille"></i></a> -->
+                            </div>
+
+                            <div class="navbar-nav">
+                                <a href="../index.html">ACCUEIL</a>
+                                <a href="pokedex.html">POKEDEX</a>
+                                <a href="#">TYPE</a>
+                                <a><i class="bi bi-person-circle icontaille"></i></a>
+                            </div>
+
+                        </div>
                     </div>
+                </nav>
 
-                    <div class="navbar-nav d-flex flex-collumn text-center">
-                        <a href="../index.html">ACCUEIL</a>
-                        <a href="pokedex.html">POKEDEX</a>
-                        <a href="#">TYPE</a>
-                    </div>
 
+
+            </header>
+
+            <main class="border">
+
+                <div class=" row d-flex justify-content-center mt-4">
+                    <h1 class=" col-6 text-center p-1 bg-danger text-white ">TYPES</h1>
                 </div>
-            </div>
-        </nav>
-    </header>
 
-    <main class="border border-dark colonne bg-light">
-        <div class=" row d-flex justify-content-center mt-4">
-            <h1 class=" col-6 text-center p-1 bg-danger text-white ">TYPES</h1>
-        </div>
+                <div class="row d-flex justify-content-evenly  mt-4  ">
 
-        <div class="row d-flex justify-content-evenly  mt-4  ">
+                    <a type="button" class="btn couleur-1 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="typenormal.html">
 
-            <button type="button" class="btn couleur-1 col-4 m-4 rounded-3 text-white d-flex flex-row ">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/normal.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/normal.png" alt="">
+                        </div>
+                        <p class="m-auto">normal</p>
+                    </a>
 
-            <button type="button" class="btn btn-info col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/glace.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+                    <a type="button" class="btn btn-info col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="TypeGlace.html">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/glace.png" alt="">
+                        </div>
+                        <p class="m-auto">Glace</p>
+                    </a>
 
-            <button type="button" class="btn btn-danger col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/feu.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+                    <a type="button" class="btn btn-danger col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="typefeu.html">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/feu.png" alt="">
+                        </div>
+                        <p class="m-auto">Feu</p>
+                    </a>
 
 
 
-            <button type="button" class="btn couleur-2 col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/dragon.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+                    <a type="button" class="btn couleur-2 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="TypeDragon.html">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/dragon.png" alt="">
+                        </div>
+                        <p class="m-auto">Dragon</p>
+                    </a>
 
 
-            <button type="button" class="btn btn-primary col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/eau.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
-
-
-
-            <button type="button" class="btn couleur-3 col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/combat.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+                    <a type="button" class="btn btn-primary col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="typeEau.html">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/eau.png" alt="">
+                        </div>
+                        <p class="m-auto">Eau</p>
+                    </a>
 
 
 
-            <button type="button" class="btn couleur-4 col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/plante.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+                    <a type="button" class="btn couleur-3 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="TypeCombat.html">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/combat.png" alt="">
+                        </div>
+                        <p class="m-auto">Combat</p>
+                    </a>
 
 
-            <button type="button" class="btn couleur-5 col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/poison.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+
+                    <a type="button" class="btn couleur-4 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="typePlante.html">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/plante.png" alt="">
+                        </div>
+                        <p class="m-auto">Plante</p>
+                    </a>
 
 
-            <button type="button" class="btn couleur-6 col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/elec.png" alt="">
-                </div>
-                <p>Primary</p>
-            </button>
+                    <a type="button" class="btn couleur-5 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"
+                        href="TypePoison.html">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/poison.png" alt="">
+                        </div>
+                        <p class="m-auto">Poison</p>
+                    </a>
 
 
-            <button type="button" class="btn couleur-7 col-4 m-4 rounded-3 text-white d-flex flex-row">
-                <div class="m-auto">
-                    <img class="taillebouton" src="../img/insecte.png" alt="">
-                </div>
-                <p class="m-auto">Primary</p>
-            </button>
+                    <a type="button" class="btn couleur-6 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/elec.png" alt="">
+                        </div>
+                        <p class="m-auto">Elec</p>
+                    </a>
 
-        </div>
 
-        <div class="row  d-flex justify-content-center">
-            <button type="button" class="btn couleur-8 col-4 m-4 rounded-3 text-white d-flex flex-row"">
+                    <a type="button" class="btn couleur-7 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row">
+                        <div class="m-auto">
+                            <img class="taillebouton" src="../img/insecte.png" alt="">
+                        </div>
+                        <p class="m-auto">Insecte</p>
+                    </a>
+
+                    <a type="button" class="btn couleur-8 col-4 col-lg-3 m-4 rounded-3 text-white d-flex flex-row"">
                 <div class=" m-auto">
-                <img class="taillebouton" src="../img/psy.png" alt="">
-        </div>
-        <p class="m-auto">Primary</p>
-        </button>
-
-        </div>
-
-
-
-
-
-
-
-    </main>
-
-    <footer class="couleurheader row p-3 pb-5">
-        <div class="col">
-            <div class="row d-flex justify-content-center mb-3">
-                <div class="col-2  text-center"><i class="bi bi-twitter text-white blanc"></i></div>
-                <div class="col-2  text-center"><i class="bi bi-instagram text-white blanc"></i></div>
-                <div class="col-2  text-center"><i class="bi bi-facebook text-white blanc"></i></div>
-                <div class="col-2  text-center"><i class="bi bi-nintendo-switch text-white blanc"></i></div>
-
-            </div>
-            <div class="row mb-3">
-                <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Mentions Légales</a>
+                        <img class="taillebouton" src="../img/psy.png" alt="">
                 </div>
-                <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Politique de
-                        Confidentialité</a></div>
-                <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Conditions
-                        D'Utilisation</a></div>
-            </div>
+                <p class="m-auto">Primary</p>
+                </a>
+
+
+
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+
+        </main>
+
+        <footer class="couleurheader row p-3 pb-5">
+            <div class="col">
+                <div class="row d-flex justify-content-center mb-3">
+                    <div class="col-2  text-center"><i class="bi bi-twitter text-white blanc"></i></div>
+                    <div class="col-2  text-center"><i class="bi bi-instagram text-white blanc"></i></div>
+                    <div class="col-2  text-center"><i class="bi bi-facebook text-white blanc"></i></div>
+                    <div class="col-2  text-center"><i class="bi bi-nintendo-switch text-white blanc"></i></div>
+
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Mentions
+                            Légales</a>
+                    </div>
+                    <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Politique de
+                            Confidentialité</a></div>
+                    <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Conditions
+                            D'Utilisation</a></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    </div>
+    </div>
 </body>
 
 </html>
