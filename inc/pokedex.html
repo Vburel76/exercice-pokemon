@@ -16,41 +16,41 @@
 <body>
   <header class="fixed-bottom sticky-lg-top border couleurheader m-0">
     <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between text-whtite border">
-        <div class="container-fluid d-flex justify-content-between ">
-            <a class="navbar-brand taille" href="#"><img src="../img/pokemon-go-logo-hd-image-PNG.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon m-auto h1"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+      <div class="container-fluid d-flex justify-content-between ">
+        <a class="navbar-brand taille" href="#"><img src="../img/pokemon-go-logo-hd-image-PNG.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon m-auto h1"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
 
-                <div class="navbar-nav flex-collumn justify-content-between align-items-center">
-                        <!-- <a class="nav-link" href="#"><i class="bi bi-person-circle icontaille"></i></a> -->
-                        <a class="nav-link margin" href="../index.html">ACCUEIL</a>
-                        <a class="nav-link margin" href="pokedex.html">POKEDEX</a>
-                        <a class="nav-link margin" href="typeSearch.html">TYPE</a>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-success" type="submit"><i class="bi bi-search icontaille"></i></button>
-                    </form>
-                </div>
+          <div class="navbar-nav flex-collumn justify-content-between align-items-center">
+            <!-- <a class="nav-link" href="#"><i class="bi bi-person-circle icontaille"></i></a> -->
+            <a class="nav-link margin" href="../index.html">ACCUEIL</a>
+            <a class="nav-link margin" href="pokedex.html">POKEDEX</a>
+            <a class="nav-link margin" href="typeSearch.html">TYPE</a>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit"><i class="bi bi-search icontaille"></i></button>
+            </form>
+          </div>
 
-            </div>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 
   <main class="d-flex justify-content-center flex-column m-0 py-5">
-    <div class="border row d-flex justify-content-center mt-4">
-      <h1 class="border border-dark col-6 text-center p-1 bg-danger text-white text-uppercase">pokédex</h1>
+    <div class=" row d-flex justify-content-center mt-4 m-0 p-0">
+      <h1 class=" col-6 text-center p-1 bg-danger text-white text-uppercase">pokédex</h1>
     </div>
 
     <div class="bouton d-flex justify-content-evenly my-4">
       <a href="../inc/nameSearch.html" class="btn btn-dark btn-sm ">Par ordre alphabétique</a>
       <a href="#" class="btn btn-dark btn-sm">Par ordre croissant du N°</a>
     </div>
-    <div class="row justify-content-center">
+
+    <div class="row justify-content-center m-0 p-0">
       <div id="carousel1" class="col-10 col-lg-3 carousel carousel-dark slide mx-5 mt-5" data-interval="false">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="false">
@@ -121,28 +121,33 @@
     </div>
   </main>
 
-  <footer class="couleurheader row espace pb-5 p-4">
-    <div class="col">
-        <div class="row d-flex justify-content-center mb-3">
-            <div class="col-2  text-center"><i class="bi bi-twitter text-white blanc"></i></div>
-            <div class="col-2  text-center"><i class="bi bi-instagram text-white blanc"></i></div>
-            <div class="col-2  text-center"><i class="bi bi-facebook text-white blanc"></i></div>
-            <div class="col-2  text-center"><i class="bi bi-nintendo-switch text-white blanc"></i></div>
+  <footer class="couleurheader row espace mt-auto  p-0 m-0">
 
+
+    <div class="text-center">
+        <i class="p-2 bi bi-twitter text-white blanc"></i>
+        <i class="p-2 bi bi-instagram text-white blanc"></i>
+        <i class="p-2 bi bi-facebook text-white blanc"></i>
+        <i class="p-2 bi bi-nintendo-switch text-white blanc"></i>
+    </div>
+
+
+    <div class="text-center pb-5 mb-5">
+        <div>
+            <a href="" class="text-white text-decoration-none">Mentions Légales</a>
         </div>
-        <div class="row mb-5">
-            <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Mentions Légales</a>
-            </div>
-            <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Politique de
-                    Confidentialité</a></div>
-            <div class="col-12 text-center"><a href="" class="text-white text-decoration-none ">Conditions
-                    D'Utilisation</a></div>
+        <div>
+            <a href="" class="text-white text-decoration-none ">Politique de Confidentialité</a>
+        </div>
+        <div>
+            <a href="" class="text-white text-decoration-none ">Conditions D'Utilisation</a>
         </div>
     </div>
-  </footer>
+
+</footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+    </script>
   <script>
     var myCarousel = document.querySelector('#carousel1')
     var carousel = new bootstrap.Carousel(myCarousel, {
