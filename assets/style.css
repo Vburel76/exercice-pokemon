@@ -104,4 +104,10 @@ img{
     .navlog {
         width: 15%;
     }
+} 
+
+
+.box{
+    box-shadow: 3px 3px 8px rgb(95, 93, 93);
 }
+
